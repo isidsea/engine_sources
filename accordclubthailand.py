@@ -54,10 +54,10 @@ class Crawler(Template):
 								    "xpath" : ".//div[@class='postarea']//h5[re:test(@id,'subject_*')]/a/@href"
 							}},
 							{"author_name":{
-								"single":True,
-								"data_type": "string",
-								"concat":False,
-								"xpath":".//div[@class='floatleft poster']//h4//a/text()"
+								   "single" : True,
+								"data_type" : "string",
+								   "concat" : False,
+								    "xpath" : ".//div[@class='floatleft poster']//h4//a/text()"
 							}},
 							{"content":{
 								"single":True,
