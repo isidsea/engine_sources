@@ -6,9 +6,9 @@ class Crawler(Template):
 	TEMPLATE          = "crawler.arct"
 	TEST_TEMPLATE     = "crawler_test.arct"
 	DB_SERVER_ADDRESS = "mongo:27017"
-	DB_SERVER_NAME = "accordclubthailand"
-	CRAWLER_NAME = "Accordclubthailand Crawler"
-	LINK_TO_CRAWL = [
+	DB_SERVER_NAME    = "accordclubthailand"
+	CRAWLER_NAME      = "Accordclubthailand Crawler"
+	LINK_TO_CRAWL     = [
 		"http://www.accordclubthailand.com/forum_act/index.php?board=17.0",
 		"http://www.accordclubthailand.com/forum_act/index.php?board=28.0",
 		"http://www.accordclubthailand.com/forum_act/index.php?board=4.0",
@@ -34,8 +34,8 @@ class Crawler(Template):
 		"http://www.accordclubthailand.com/forum_act/index.php?board=10.0",
 		"http://www.accordclubthailand.com/forum_act/index.php?board=11.0"
 	]
-	COUNTRY = "THA"
-	THREAD_XPATH = "//tr//span[re:test(@id,'msg_*')]"
+	COUNTRY           = "THA"
+	THREAD_XPATH      = "//tr//span[re:test(@id,'msg_*')]"
 	THREAD_LINK_XPATH = "./a/@href"
 	LAST_PAGE_XPATH = "//div[@class='clearfix margintop']//div[@class='margintop middletext floatleft']//a[@class='navPages'][last()]/@href"
 	PREV_XPATH = "//div[@class='clearfix margintop']//div[@class='margintop middletext floatleft']/strong/preceding-sibling::a[1]/@href"
