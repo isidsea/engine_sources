@@ -72,14 +72,14 @@ class Crawler(Template):
 								"xpath":"normalize-space(substring-before(substring-after(//div[@id='forumposts']//h3[@class='catbg3']//span[@id='top_subject']//text(),':'),'('))"
 							}}
 						]
-	CONDITIONS={
-		"has_to_have_content":{
-			"condition":'"content" in document',
-			"exception":'"Content is not defined"'
-		},
-		"content_cannot_be_empty":{
-			"condition":'len(document["content"]) > 0',
-			"exception":'"Content cannot be empty"'
-		}
-	}
+	CONDITIONS        = {
+							"has_to_have_content":{
+								"condition":'"content" in document',
+								"exception":'"Content is not defined"'
+							},
+							"content_cannot_be_empty":{
+								"condition":'len(document["content"]) > 0',
+								"exception":'"Content cannot be empty"'
+							}
+						}
 #end class
