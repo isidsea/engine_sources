@@ -37,8 +37,8 @@ class Crawler(Template):
 		"http://forums.9carthai.com/index.php?board=24.0",
 		"http://forums.9carthai.com/index.php?board=27.0" 
 	]
-	COUNTRY = "THA"
-	THREAD_XPATH = "//span[re:test(@id,'msg_*')]"
+	COUNTRY           = "THA"
+	THREAD_XPATH      = "//span[re:test(@id,'msg_*')]"
 	THREAD_LINK_XPATH = "./a/@href"
 	LAST_PAGE_XPATH = "(//div[@class='pagesection']//a[@class='navPages'])[last()]/@href"
 	PREV_XPATH = "(//div[@class='pagesection']//strong)[last()-1]/preceding-sibling::a[@class='navPages'][1]/@href"
