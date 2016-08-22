@@ -40,7 +40,7 @@ class Crawler(Template):
 	COUNTRY           = "THA"
 	THREAD_XPATH      = "//span[re:test(@id,'msg_*')]"
 	THREAD_LINK_XPATH = "./a/@href"
-	LAST_PAGE_XPATH = "(//div[@class='pagesection']//a[@class='navPages'])[last()]/@href"
+	LAST_PAGE_XPATH   = "(//div[@class='pagesection']//a[@class='navPages'])[last()]/@href"
 	PREV_XPATH = "(//div[@class='pagesection']//strong)[last()-1]/preceding-sibling::a[@class='navPages'][1]/@href"
 	POST_XPATH = "//form[@id='quickModForm']//div[@class='windowbg' or @class='windowbg2']"
 	FIELDS = [ 
