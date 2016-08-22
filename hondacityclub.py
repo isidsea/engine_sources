@@ -8,7 +8,7 @@ class Crawler(Template):
 	DB_SERVER_ADDRESS = "mongo:27017"
 	DB_SERVER_NAME = "hondacityclub"
 	CRAWLER_NAME = "Hondacityclub Crawler"
-	LINK_TO_CRAWL = [
+	LINK_TO_CRAWL  = [
 		"http://www.hondacityclub.com/board/forumdisplay.php?fid=92",
 		"http://www.hondacityclub.com/board/forumdisplay.php?fid=33",
 		"http://www.hondacityclub.com/board/forumdisplay.php?fid=99",
