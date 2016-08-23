@@ -8,7 +8,7 @@ class Crawler(Template):
 	DB_SERVER_ADDRESS = "mongo:27017"
 	DB_SERVER_NAME = "yamahat135"
 	CRAWLER_NAME = "Yamahat135 Crawler"
-	LINK_TO_CRAWL = [
+	LINK_TO_CRAWL =    [
 		"http://www.yamahat135.com/forums/t150-t135-general-topics.21/",
 		"http://www.yamahat135.com/forums/safety-riding-gears-equipments.64/",
 		"http://www.yamahat135.com/forums/electrical.65/",
